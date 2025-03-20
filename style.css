@@ -6,19 +6,25 @@ body {
     background-size: cover;
 }
 
-#header {
-    background-color: #273e38;
-    color: white;
-    height: 60px;
+a {
+    text-decoration: none;
 }
 
-.nav > a {
+a:hover {
+    text-decoration: underline;
+}
+
+#header, .nav > a, #hero, #cta {
     color: white;
+}
+
+#header {
+    background-color: #273e38;
+    height: 60px;
 }
 
 #hero {
     font-size: 22px;
-    color: white;
 }
 
 #hero > h1 {
@@ -27,6 +33,18 @@ body {
 
 #cta {
     background-color: #ff5666;
-    color: white;
-    text-decoration: none;
+}
+
+#cta:hover {
+    color: #ff5666;
+    background-color: white;
+}
+
+#services {
+    background-color: #dcf8f1;
+}
+
+.card {
+    background-color: white;
+    width: fit-content;
 }
