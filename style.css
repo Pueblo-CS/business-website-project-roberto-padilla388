@@ -7,21 +7,93 @@ body {
 }
 #header{
     background-color: #1A1423;
-    color: white;
     height: 60px;
 }
 .nav>a{
-    color: white;
 }
 #hero{
     font-size: 22px;
-    color: white;
 }
 #hero > h1{
     font-size: 80px;
+    margin: 10% auto 10% auto;
 }
 #cta{
     background-color: #726DA8;
-    color: white;
     text-decoration: none;
+}
+body {
+    background-image: url("https://images.pexels.com/photos/30469970/pexels-photo-30469970/free-photo-of-futuristic-gaming-pc-setup-with-led-lighting.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+#header, .nav a, #hero, #cta {
+    color: white;
+    height: 60;
+    padding: 10;
+    padding-top: 40px;
+}
+#cta:hover {
+    background-color: white;
+    color: #ff5666;
+}
+.button{
+    display: block;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#products {
+    background-color: #4b3a52;
+    padding: 20vh 40px 20vh 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card {
+    background-color: white;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    font-size: 20PX;
+    box-shadow: 5px 5px 20px;
+}
+.nav{
+    float: right;
+}
+.logo{
+    float: left;
+}
+#testimonials{
+    padding: 20vh 40px 20vh 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.quote::before, .quote::after{
+    content: "\"";
+    font-weight: bolder;
+    font-size: 30px;
+}
+.attribution::before{
+    content: "-";
+    font-weight: bolder;
+}
+.nav > a:hover{
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 10px;
 }
